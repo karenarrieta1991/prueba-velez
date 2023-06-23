@@ -610,6 +610,12 @@ video{
   }
 }
 
+@media only screen and (min-width: 1026px){
+  .navbar-principal:hover{
+    color: #4d4d4d;  
+  }
+}
+
 .menu-izquierda{
   width: 33vw;
   text-align: left;
@@ -641,6 +647,27 @@ span.texto-menu{
   
 .link-menu a {
     color: white;
+}
+
+color
+
+.menu-centro{
+  width: 34vw;
+  text-align: center;
+}
+
+.logo-menu{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+@media only screen and (min-width: 1026px){
+img.logo-velez{
+    width: calc(7vw - -6px) !important;
+}
 }
 
 

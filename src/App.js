@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import LOGO_MARCA_VELEZ from "./LOGO_MARCA_VÉLEZ.png";
 import video from "./video-final.mp4";
 import logo1 from "./LFG-LANDING-3.png";
 import play from "./play.png";
@@ -8,6 +9,7 @@ import videosostenibilidad from "./piezasmemo-desk.mp4";
 import imagensostper from "./LFG-LANDING-FINAL1.png";
 import imagensostper1 from "./LFG-LANDING-FINAL2.png";
 import imagensostper2 from "./LFG-LANDING-FINAL3.png";
+
 import "./App.css";
 import React, { useState } from "react";
 import { useEffect } from "react";
@@ -48,7 +50,7 @@ function App() {
               <ul className="menu-ul">
                 <div className="menu-list1">
                   <span class="texto-menu">
-                    <a class="link-menu-mujer" href="#" title="seccion mujer">mujer</a>
+                    <a class="link-menu" href="#" title="seccion mujer">mujer</a>
                   </span>
                 </div>
               </ul>
@@ -66,7 +68,7 @@ function App() {
               <ul className="menu-ul">
                 <div className="menu-list1">
                   <span class="texto-menu">
-                    <a class="link-menu-mujer" href="#" title="seccion mujer">outlet</a>
+                    <a class="link-menu" href="#" title="seccion mujer">outlet</a>
                   </span>
                 </div>
               </ul>
@@ -75,12 +77,23 @@ function App() {
               <ul className="menu-ul">
                 <div className="menu-list1">
                   <span class="texto-menu">
-                    <a class="link-menu-mujer" href="#" title="seccion mujer">crédito</a>
+                    <a class="link-menu" href="#" title="seccion mujer">crédito</a>
                   </span>
                 </div>
               </ul>
             </div>
-            
+
+
+            <div className="menu-centro">
+              <ul className="menu-ul">
+                <div className="menu-list1">
+                  <span class="logo-menu">
+                    <img class="logo-velez" src={LOGO_MARCA_VELEZ} href="#" title="seccion mujer"/>
+                  </span>
+                </div>
+              </ul>
+
+            </div>
 
 
           </nav>
